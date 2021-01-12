@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;unidade04.CadastroAluno&apos; to &apos;CadastroAlunoWhile&apos;&#x0D;&#x0A;- Original project: &apos;cursoAlgoritmoProgramacao&apos;&#x0D;&#x0A;- Original element: &apos;unidade04.CadastroAluno&apos;&#x0D;&#x0A;- Renamed element: &apos;unidade04.CadastroAlunoWhile&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CadastroAluno&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;unidade04{CadastroAluno.java[CadastroAluno" matchStrategy="1" name="CadastroAlunoWhile" qualified="false" references="true" similarDeclarations="false" stamp="1607947331647" textual="false" version="1.0"/>
+</session>
