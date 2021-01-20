@@ -1,0 +1,14 @@
+package unidade2;
+
+import java.util.Locale;
+
+public class AppMensageText {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		System.out.println("Bom dia! ");
+		System.out.println("Boa tarde! ");
+		System.out.println("Boa noite! ");
+	}
+
+}

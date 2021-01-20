@@ -1,0 +1,37 @@
+package unidade2;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Operadores {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Por favor digite o primeiro valor: ");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Por favor digite o segundo valor: ");
+		int num2 = sc.nextInt();
+		
+		int soma = num1 + num2;
+		int subtracao = num1 - num2;
+		int multiplicacao = num1 * num2;
+		float divisao = (float) num1 / num2;
+		int resto = num1 % num2;
+		
+		System.out.println("Soma: " + soma);
+		System.out.println("Subtração: " + subtracao);
+		System.out.println("Multiplicação: " + multiplicacao);
+		System.out.printf("Divisão:%.3f \n", divisao);
+		System.out.println("Resto: " + resto);
+		
+		System.out.println("Número 1 é maior que número 2? " + (num1 > num2));
+		System.out.println("Número 1 é menor que número 2? " + (num1 < num2));
+		System.out.println("Número 1 é igul a número 2? " + (num1 == num2));
+		System.out.println("Número 1 é diferente que número 2? " + (num1 != num2));
+		
+		sc.close();
+	}
+
+}

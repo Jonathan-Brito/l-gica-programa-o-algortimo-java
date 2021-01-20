@@ -1,0 +1,21 @@
+package unidade2;
+
+import java.util.Locale;
+
+import javax.swing.JOptionPane;
+
+public class AppFaturamentoVendas {
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		int vendasJaneiro = 15.000;
+		int vendasFevereiro = 23.000;
+		int vendasMarco = 17.000;
+		
+		int faturamentoTrimestral = vendasJaneiro + vendasFevereiro + vendasMarco;
+		
+		JOptionPane.showMessageDialog(null, "Resultado faturamento trimestral= " + faturamentoTrimestral);
+	}
+
+}
