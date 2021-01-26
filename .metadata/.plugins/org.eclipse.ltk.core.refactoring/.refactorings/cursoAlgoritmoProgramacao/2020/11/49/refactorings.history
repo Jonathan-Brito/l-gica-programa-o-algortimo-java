@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Convert local variable &apos;unidade02.Locadora.main().tituloFilmes&apos; in &apos;unidade02.Locadora.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;cursoAlgoritmoProgramacao&apos;&#x0D;&#x0A;- Original element: &apos;unidade02.Locadora.main().tituloFilmes&apos;&#x0D;&#x0A;- Field name: &apos;tituloFilmes&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;tituloFilmes&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;unidade02{Locadora.java" name="tituloFilmes" selection="240 12" stamp="1606770472352" static="true" version="1.0" visibility="2"/>
-</session>
